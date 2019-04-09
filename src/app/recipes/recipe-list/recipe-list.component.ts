@@ -9,8 +9,10 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is simply a test', 
-    'https://www.getelastic.com/wp-content/uploads/shwans-recipe.jpg')
+    new Recipe('A Test Recipe', 'This is simply a test',
+      'https://www.getelastic.com/wp-content/uploads/shwans-recipe.jpg'),
+    new Recipe('A Test Recipe', 'This is simply a test',
+      'https://www.getelastic.com/wp-content/uploads/shwans-recipe.jpg')
   ];
   constructor() { }
 
